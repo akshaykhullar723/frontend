@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+/* Specific column styling */
+td.order_number, th.order_number,
+td.party_name, th.party_name,
+td.station_name, th.station_name,
+td.division, th.division,
+td.transport, th.transport,
+td.shipment, th.shipment,
+td.timestamp, th.timestamp {
+  background-color: #FFA500;  /* Orange for marketing */
+}
+
+td.quantity, td.packed, td.packed_time, th.quantity, th.packed, th.packed_time {
+  background-color: #1E90FF;  /* DodgerBlue for packaging */
+}
+
+td.billed, td.billed_time, th.billed, th.billed_time {
+  background-color: #9370DB;  /* MediumPurple for billing */
+}
+
+td.dispatched, td.dispatched_time, th.dispatched, th.dispatched_time {
+  background-color: #32CD32;  /* LimeGreen for dispatch */
+}
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button.clear-button {
+  background-color: #ff4d4d; /* Red color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.clear-button:hover {
+  background-color: #e60000; /* Darker red on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.no-orders {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
