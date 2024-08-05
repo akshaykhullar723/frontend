@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "socket.io-client": "^4.7.5",
     "web-vitals": "^2.1.4"
   },
@@ -36,5 +36,15 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://order-display-project.onrender.com"
+  "proxy": "https://order-display-project.onrender.com",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.1",
+    "@babel/plugin-transform-class-properties": "^7.24.7",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
+    "@babel/plugin-transform-numeric-separator": "^7.24.7",
+    "@babel/plugin-transform-optional-chaining": "^7.24.8",
+    "@babel/plugin-transform-private-methods": "^7.24.7",
+    "@eslint/config-array": "^0.17.1",
+    "@eslint/object-schema": "^2.1.4"
+  }
 }
