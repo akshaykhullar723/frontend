@@ -9,4 +9,4 @@ services:
     repo: https://github.com/akshaykhullar723/frontend
     envVars:
       - key: NODE_VERSION
-        value: 14.x
+        value: 20.15.1
