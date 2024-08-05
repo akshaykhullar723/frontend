@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
+    branch: master
+    repo: https://github.com/akshaykhullar723/frontend
+    envVars:
+      - key: NODE_VERSION
+        value: 20.15.1
