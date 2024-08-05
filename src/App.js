@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import socketIOClient from 'socket.io-client';
 import './App.css';
+
 const ENDPOINT = process.env.REACT_APP_API_URL || "https://order-display-project.onrender.com";
 
 function App() {
